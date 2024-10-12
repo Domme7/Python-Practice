@@ -1,15 +1,21 @@
 person = {
     "name": "John",
-    "age": 30,
+    "alter": 30,
     "beruf": "Informatiker"
 }
 
 #Zugriff auf Werte über die Schlüssel
 print(f"Name: {person['name']}")
-print(f"Age: {person['age']}")
+print(f"Alter: {person['alter']}")
 print(f"Beruf: {person['beruf']}")
 
 # Hinzufügen eines neuen Schlüssel
 
 person["hobby"] = "Programmieren"
 print(f"Hobby: {person['hobby']}")
+
+
+# Ändern eines vorhandenen Werts
+
+person["alter"] = 31
+print(f"Neues Alter: {person['alter']}")
