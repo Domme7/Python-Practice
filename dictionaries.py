@@ -19,3 +19,8 @@ print(f"Hobby: {person['hobby']}")
 
 person["alter"] = 31
 print(f"Neues Alter: {person['alter']}")
+
+
+# Löschen eines Schlüssels
+del person["beruf"]
+print("Nach dem Löschen des Berufs:", person)
