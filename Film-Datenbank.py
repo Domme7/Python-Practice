@@ -44,13 +44,7 @@ filme["The Dark Knight"] = {
 print_reg("The Dark Knight")
 print_year("The Dark Knight")
 print_score("The Dark Knight")
-
-print("""
-
-
-
-        
-        """)      
+  
       
       
     
